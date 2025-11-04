@@ -6,7 +6,6 @@ public class TimeFormat {
         String Screan = "AM" ; if (hours >= 12) {
 			Screan = "PM";}
 		if (hours == 0) {
-			hours = 12;
 		} else if (hours > 12) {
 			hours = hours -12;
 		}
